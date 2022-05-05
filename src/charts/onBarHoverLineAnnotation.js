@@ -64,10 +64,10 @@ const onBarHoverLineAnnotation = {
             let previousText = 'Return: ' + tooltip.dataPoints[0].raw;
             ctx.fillText('Trades:', ctx.measureText(previousText).width + 50, 15);
             previousText = 'Return: ' + tooltip.dataPoints[0].raw + 'Trades';
-            ctx.fillText('2', ctx.measureText(previousText).width + 60, 15);
+            ctx.fillText('23', ctx.measureText(previousText).width + 60, 15);
             ctx.fillStyle = "#FFB700";
             previousText += '2';
-            ctx.fillText('Benchmark: ' + '7pips', ctx.measureText(previousText).width + 70, 15);
+            ctx.fillText('  Equity: 87,987.54 USD', ctx.measureText(previousText).width + 70, 15);
         }
     }
 }
